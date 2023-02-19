@@ -77,3 +77,13 @@ Un Navigation Drawer, también conocido como "cajón de navegación", es un patr
 ## Http request
 
 En Android Studio, se puede realizar una solicitud HTTP utilizando la clase HttpUrlConnection. HttpUrlConnection es una clase de Android que permite realizar solicitudes HTTP y HTTPS de forma sencilla y flexible.
+
+## Arquitecturas y patrones de diseño para Android Studio
+
+- MVP (Modelo-Vista-Presentador): Este patrón separa la lógica de presentación de la lógica de negocio y datos. El modelo representa los datos y la lógica de negocio, la vista representa la interfaz de usuario y el presentador actúa como intermediario entre el modelo y la vista, controlando la interacción entre ellos.
+
+- MVVM (Modelo-Vista-ViewModel): Este patrón es similar al MVP, pero utiliza un ViewModel para manejar la lógica de presentación en lugar de un presentador. El ViewModel se encarga de mantener el estado de la vista y proporcionar datos a la vista según sea necesario.
+
+- Clean Architecture: Esta arquitectura enfatiza la separación de preocupaciones y la independencia de la plataforma. Consiste en tres capas principales: la capa de presentación, la capa de dominio y la capa de infraestructura. La capa de presentación se encarga de la interfaz de usuario, la capa de dominio contiene la lógica de negocio y la capa de infraestructura proporciona la implementación de detalles técnicos, como la persistencia de datos y la comunicación en red.
+
+- Arquitectura de componentes de Android: Esta es una arquitectura de Android recomendada por Google que utiliza los componentes de arquitectura de Android, como LiveData, ViewModel y Room, para simplificar el desarrollo de aplicaciones Android. LiveData se utiliza para observar los cambios en los datos, ViewModel se utiliza para mantener el estado de la vista y Room se utiliza para manejar la persistencia de datos.
