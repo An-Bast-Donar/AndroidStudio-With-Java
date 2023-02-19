@@ -9,6 +9,7 @@ Los conceptos en este archivo explicados fueron generados mediante inteligencia 
 ## Estructura del proyecto
 
 - Carpeta "app": La carpeta "app" es la principal en el proyecto de Android, y contiene todo lo que necesitas para construir la aplicación en sí. Aquí es donde encontrarás los archivos de código fuente, los recursos, las configuraciones de compilación, los manifestos y otros componentes de la aplicación.
+
 - Carpeta "src": La carpeta "src" es donde se encuentra todo el código fuente de la aplicación. Dentro de esta carpeta, encontrarás las carpetas "main" y "test". La carpeta "main" contiene el código fuente y los recursos que se utilizan en la versión principal de la aplicación, mientras que la carpeta "test" contiene los archivos de prueba para la aplicación.
 
 - Carpeta "res": La carpeta "res" contiene todos los recursos necesarios para la aplicación, como diseños de interfaz de usuario, imágenes, iconos, archivos de audio y otros recursos.
@@ -76,5 +77,3 @@ Un Navigation Drawer, también conocido como "cajón de navegación", es un patr
 ## Http request
 
 En Android Studio, se puede realizar una solicitud HTTP utilizando la clase HttpUrlConnection. HttpUrlConnection es una clase de Android que permite realizar solicitudes HTTP y HTTPS de forma sencilla y flexible.
-
-
